@@ -52,4 +52,4 @@ app.post("/payment", (req, res) => {
 
 
 
-app.listen(8282, () => console.log("Listening at port 8282"))
+app.listen(process.env.PORT || 8282, () => console.log("Listening at port 8282"))
